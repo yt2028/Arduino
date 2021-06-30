@@ -1,0 +1,17 @@
+Stepper Motor 42SHDC3025-24B
+Rated Power 14W
+Rated Voltage   3.96V
+Rated Current   0.9A
+Rated Speed 1000rpm
+Rated Torque    0.34NM
+Holding Torque  0.4N.M
+Step Angle  1.8°
+Step Angle Accuracy ±5%
+Phase   2
+Resistance  4.4Ω±10%
+Temperature Rise    80K Max
+Ambient Temperature -20℃~+50℃
+Ambient Humidity    90% Max
+Insulation Resistance   100 MΩ Min. ,500VDC
+Size    42*42*40(mm)
+Weight  280g
