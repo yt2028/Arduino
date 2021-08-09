@@ -9,12 +9,12 @@ HX711 scale;
 void setup() {
   Serial.begin(115200);
   scale.begin(LOADCELL_DOUT_PIN, LOADCELL_SCK_PIN);
-  scale.set_scale(510.0);                      // 調整する
-  scale.set_offset(0.5);
+  scale.set_scale(464.2);                      // 調整する
+  //scale.set_offset(0.5);
   scale.tare();                // reset the scale to 0
   }
 
   void loop() {
-    Serial.println(scale.get_units(10)+0.50, 1);
+    Serial.println(scale.get_units(), 1);
     delay(1);
   }
